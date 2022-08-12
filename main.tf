@@ -18,6 +18,6 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "main"
+    Name = "jenkins_vpc"
   }
 }
